@@ -14,7 +14,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class GetdownConfig {
-    // 저장될 데이터 구조
     public static double guideRadius = 2.0;
     public static int particleColor = 0x33CCFF;
     public static float soundVolume = 1.0f;
@@ -61,7 +60,6 @@ public class GetdownConfig {
         }
     }
 
-    // 파일 불러오기 로직
     public static void load() {
         if (!CONFIG_FILE.exists()) {
             save();

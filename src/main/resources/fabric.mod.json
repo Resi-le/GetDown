@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "getdown",
+  "version": "${version}",
+  "name": "GetDown!",
+  "description": "GetDown! is a Minecraft mod that shows you your expected landing point based on your speed.",
+  "authors": ["resi_le"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "mod.resi_le.getdown.client.GetdownDataGenerator"
+    ],
+    "client": [
+      "mod.resi_le.getdown.client.GetdownClient"
+    ],
+    "modmenu": [
+      "mod.resi_le.getdown.client.ModMenuIntegration"
+    ],
+    "main": [
+      "mod.resi_le.getdown.Getdown"
+    ]
+  },
+  "mixins": [
+    "getdown.mixins.json",
+    {
+      "config": "getdown.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -31,7 +31,7 @@
   "getdown.config.rings.max_count.tooltip": "표시할 레이어 링의 최대 개수",
 
   "getdown.config.physics.vehicle_physics":         "탈것별 물리 시뮬레이션",
-  "getdown.config.physics.vehicle_physics.tooltip": "말, 보트, 미니카트 등 탈것 종류에 맞는 드래그·중력값을 적용해 착지 예측 정확도를 높입니다. 비활성화하면 모든 탈것에 동일한 근사치를 사용합니다.",
+  "getdown.config.physics.vehicle_physics.tooltip": "말, 보트, 광산수레 등 탈것 종류에 맞는 드래그·중력값을 적용해 착지 예측 정확도를 높입니다. 비활성화하면 모든 탈것에 동일한 근사치를 사용합니다.",
 
   "getdown.config.effect.particle":         "착지 파티클",
   "getdown.config.effect.particle.tooltip": "착지 시 터지는 파티클 종류",

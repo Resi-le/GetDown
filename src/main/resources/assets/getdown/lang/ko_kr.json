@@ -1,0 +1,42 @@
+{
+  "getdown.config.title": "Get Down! 설정",
+
+  "getdown.config.category.general":     "일반",
+  "getdown.config.category.color":       "색상",
+  "getdown.config.category.hud":         "HUD",
+  "getdown.config.category.layer_rings": "레이어 링",
+  "getdown.config.category.physics":     "물리",
+  "getdown.config.category.effect":      "이펙트",
+
+  "getdown.config.general.guide_radius":         "착지 링 크기",
+  "getdown.config.general.guide_radius.tooltip": "착지 예측 링의 반지름 (블록 단위)",
+  "getdown.config.general.show_void_x":          "공허 블록 X 표시",
+  "getdown.config.general.show_void_x.tooltip":  "예측된 착지 지점이 구조물 공허(Structure Void) 블록일 때 X 마커를 표시합니다",
+
+  "getdown.config.color.far_color":                   "먼 거리 색상",
+  "getdown.config.color.far_color.tooltip":           "착지 지점까지 거리가 멀 때의 링 색상",
+  "getdown.config.color.near_color":                  "가까운 거리 색상",
+  "getdown.config.color.near_color.tooltip":          "착지 직전의 링 색상",
+  "getdown.config.color.transition_distance":         "색상 전환 거리",
+  "getdown.config.color.transition_distance.tooltip": "먼 거리 색상에서 가까운 거리 색상으로 전환이 시작되는 거리 (블록 단위)",
+
+  "getdown.config.hud.show_damage":         "낙하 피해 HUD 표시",
+  "getdown.config.hud.show_damage.tooltip": "착지 시 예상 낙하 피해량을 화면에 표시합니다. 크리에이티브/관전 모드에서는 표시되지 않습니다.",
+
+  "getdown.config.rings.show":              "레이어 링 표시",
+  "getdown.config.rings.show.tooltip":      "착지 지점 위로 일정 간격마다 추가 링을 표시합니다",
+  "getdown.config.rings.spacing":           "레이어 링 간격",
+  "getdown.config.rings.spacing.tooltip":   "각 레이어 링 사이의 수직 간격 (블록 단위)",
+  "getdown.config.rings.max_count":         "최대 레이어 수",
+  "getdown.config.rings.max_count.tooltip": "표시할 레이어 링의 최대 개수",
+
+  "getdown.config.physics.vehicle_physics":         "탈것별 물리 시뮬레이션",
+  "getdown.config.physics.vehicle_physics.tooltip": "말, 보트, 미니카트 등 탈것 종류에 맞는 드래그·중력값을 적용해 착지 예측 정확도를 높입니다. 비활성화하면 모든 탈것에 동일한 근사치를 사용합니다.",
+
+  "getdown.config.effect.particle":         "착지 파티클",
+  "getdown.config.effect.particle.tooltip": "착지 시 터지는 파티클 종류",
+  "getdown.config.effect.sound":            "착지 효과음",
+  "getdown.config.effect.sound.tooltip":    "착지 시 재생되는 효과음",
+  "getdown.config.effect.volume":           "효과음 볼륨 (%)",
+  "getdown.config.effect.volume.tooltip":   "착지 효과음의 볼륨"
+}

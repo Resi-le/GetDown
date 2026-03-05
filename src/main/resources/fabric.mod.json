@@ -7,7 +7,7 @@
   "authors": ["resi_le"],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "icon.png",
+  "icon": "assets/getdown/icon.png",
   "environment": "client",
   "entrypoints": {
     "fabric-datagen": [

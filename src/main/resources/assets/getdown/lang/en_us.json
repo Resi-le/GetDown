@@ -1,0 +1,42 @@
+{
+  "getdown.config.title": "Get Down! Configurations",
+
+  "getdown.config.category.general":     "General",
+  "getdown.config.category.color":       "Color",
+  "getdown.config.category.hud":         "HUD",
+  "getdown.config.category.layer_rings": "Layer Rings",
+  "getdown.config.category.physics":     "Physics",
+  "getdown.config.category.effect":      "Effect",
+
+  "getdown.config.general.guide_radius":         "Landing Ring Size",
+  "getdown.config.general.guide_radius.tooltip": "Radius of the landing prediction ring (blocks)",
+  "getdown.config.general.show_void_x":          "Show X on Structure Void",
+  "getdown.config.general.show_void_x.tooltip":  "Shows an X marker when the predicted landing spot is a Structure Void block",
+
+  "getdown.config.color.far_color":                   "Far Color",
+  "getdown.config.color.far_color.tooltip":           "Ring color when the landing point is far away",
+  "getdown.config.color.near_color":                  "Near Color",
+  "getdown.config.color.near_color.tooltip":          "Ring color when landing is imminent",
+  "getdown.config.color.transition_distance":         "Color Transition Distance",
+  "getdown.config.color.transition_distance.tooltip": "Distance (blocks) at which the ring begins transitioning from Far to Near color",
+
+  "getdown.config.hud.show_damage":         "Show Damage HUD",
+  "getdown.config.hud.show_damage.tooltip": "Displays the estimated fall damage on screen. Hidden in Creative and Spectator mode.",
+
+  "getdown.config.rings.show":                "Show Layer Rings",
+  "getdown.config.rings.show.tooltip":        "Renders additional rings at regular intervals above the landing point",
+  "getdown.config.rings.spacing":             "Layer Ring Spacing",
+  "getdown.config.rings.spacing.tooltip":     "Vertical spacing between each layer ring (blocks)",
+  "getdown.config.rings.max_count":           "Max Layer Count",
+  "getdown.config.rings.max_count.tooltip":   "Maximum number of layer rings to display",
+
+  "getdown.config.physics.vehicle_physics":         "Vehicle-Specific Physics",
+  "getdown.config.physics.vehicle_physics.tooltip": "Uses accurate drag and gravity values per vehicle type (horse, boat, minecart) for better landing prediction. Disable to use a universal approximation.",
+
+  "getdown.config.effect.particle":         "Landing Particle",
+  "getdown.config.effect.particle.tooltip": "Particle effect that bursts on landing",
+  "getdown.config.effect.sound":            "Landing SFX",
+  "getdown.config.effect.sound.tooltip":    "Sound effect played on landing",
+  "getdown.config.effect.volume":           "SFX Volume (%)",
+  "getdown.config.effect.volume.tooltip":   "Volume of the landing sound effect"
+}

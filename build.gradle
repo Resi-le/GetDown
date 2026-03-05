@@ -107,3 +107,33 @@ publishing {
         // retrieving dependencies.
     }
 }
+
+tasks.register('bumpPatch') {
+    doLast {
+        def props = new File('gradle.properties')
+        def text  = props.text
+        def (major, minor, patch) = project.mod_version.split('\\.').collect { it.toInteger() }
+        props.text = text.replace("mod_version=${project.mod_version}", "mod_version=${major}.${minor}.${patch + 1}")
+        println "버전 업데이트: ${project.mod_version} → ${major}.${minor}.${patch + 1}"
+    }
+}
+
+tasks.register('bumpMinor') {
+    doLast {
+        def props = new File('gradle.properties')
+        def text  = props.text
+        def (major, minor, patch) = project.mod_version.split('\\.').collect { it.toInteger() }
+        props.text = text.replace("mod_version=${project.mod_version}", "mod_version=${major}.${minor + 1}.0")
+        println "버전 업데이트: ${project.mod_version} → ${major}.${minor + 1}.0"
+    }
+}
+
+tasks.register('bumpMajor') {
+    doLast {
+        def props = new File('gradle.properties')
+        def text  = props.text
+        def (major, minor, patch) = project.mod_version.split('\\.').collect { it.toInteger() }
+        props.text = text.replace("mod_version=${project.mod_version}", "mod_version=${major + 1}.0.0")
+        println "버전 업데이트: ${project.mod_version} → ${major + 1}.0.0"
+    }
+}

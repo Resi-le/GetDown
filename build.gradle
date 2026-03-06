@@ -21,6 +21,10 @@ loom {
     }
 }
 
+tasks.named('jar') {
+    from sourceSets.client.output
+}
+
 fabricApi {
     configureDataGeneration {
         client = true
